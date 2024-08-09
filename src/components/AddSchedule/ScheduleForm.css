@@ -1,0 +1,60 @@
+.schedule-form-container {
+  margin: 20px;
+}
+
+.schedule-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.schedule-label, .bgcolor-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.schedule-input,
+.schedule-select,
+.schedule-textarea,
+.bgcolor {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.schedule-select {
+  width: calc(100% - 60px);
+  margin-right: 5px;
+}
+
+.schedule-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+
+.schedule-button {
+  background-color: #4ea3ee;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.break-label {
+  font-weight: bold;
+  margin-right: 20px;
+}

@@ -1,0 +1,96 @@
+.date-card {
+  width: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.schedule-time {
+  padding: 30px 10px;
+  border: 1px solid #edecec;
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.schedule-head {
+  padding: 30px 10px;
+  border: 1px solid #edecec;
+  flex-basis: 30%;
+}
+
+.schedule-details {
+  padding: 30px 10px;
+  border: 1px solid #edecec;
+  flex-basis: 50%;
+}
+
+.day-card h5 {
+  margin-bottom: 0;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.day-card span {
+  color: rgb(44, 44, 44);
+  text-align: justify;
+  font-size: 15px;
+}
+
+.day-card p {
+  text-align: justify;
+  font-size: 14px;
+  color: rgb(64, 64, 64);
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 770px) {
+  .date-card {
+    border: 1px solid #dadada;
+    padding: 0 10px;
+  }
+
+  .date-card {
+    flex-direction: column;
+  }
+
+  .schedule-ele-col {
+    padding: 15px 5px;
+  }
+
+  .schedule-time {
+    padding: 15px 5px;
+    border: none;
+  }
+
+  .schedule-head {
+    padding: 15px 5px;
+    border: none;
+  }
+
+  .schedule-details {
+    padding: 15px 5px;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .schedule-ele-col {
+    border: none;
+    padding: 10px;
+  }
+
+  .day-card {
+    border: 1px solid #edecec;
+    padding: 10px 0px;
+  }
+
+  .day-card h5 {
+    text-align: justify;
+  }
+
+  .day-card p {
+    text-align: justify;
+  }
+}

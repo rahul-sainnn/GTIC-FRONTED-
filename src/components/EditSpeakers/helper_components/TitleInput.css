@@ -1,0 +1,121 @@
+.card {
+  width: 50%;
+  margin: 70px auto;
+  padding: 25px;
+  /* border: 1px solid #ccc; */
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(212 231 250);
+}
+
+select {
+  width: 98%;
+  padding: 8px;
+  font-size: 16px;
+  /* border: 1px solid #ccc; */
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+select option {
+  padding: 8px;
+}
+
+.form-input {
+  display: block;
+  width: 95%;
+  margin: 15px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: none;
+  background-color: white;
+}
+
+.form-label {
+  display: block;
+}
+
+.sentence-item {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+}
+
+.sentence-input {
+  width: 85%;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 10px;
+}
+
+.close-icon-container {
+  width: 9%;
+  border-radius: 0px 5px 5px 0px;
+  background-color: white;
+  background-color: #ececec;
+  /* box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-sentence-container {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  margin: 12px 0px;
+}
+
+.add-sentence-container button {
+  border: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.log-data-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.form-button {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  /* transition: 0.2s; */
+}
+
+.form-button:hover {
+  color: #007bff;
+  background-color: white;
+  border: 2px solid #007bff;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 75%;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    width: 80%;
+  }
+}
